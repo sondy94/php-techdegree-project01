@@ -1,4 +1,4 @@
-
+<?php
 // PHP - Random Quote Generator
 
 // Below is a multidimensional array containing a list of quotes, sources, citations and years.
@@ -66,3 +66,4 @@ function printQuote($array) {
 
 
 }
+?>
