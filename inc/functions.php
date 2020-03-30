@@ -53,11 +53,11 @@ function printQuote($array) {
     $quoteItem .= "<p class=\"quote\">" . $quoteElements['quote'] . "</p>";
     $quoteItem .= "<p class=\"source\">" . $quoteElements['source'];
 
-    if($quoteElements['citation']){
+    if(isset($quoteElements['citation'])){
         $quoteItem .= "<span class=\"citation\">" . $quoteElements['citation'] . "</span>";
     }
 
-    if($quoteElements['year']){
+    if(isset($quoteElements['year'])){
         $quoteItem .= "<span class=\"year\">" . $quoteElements['year'] . "</span></p>";
 
     }
@@ -66,4 +66,4 @@ function printQuote($array) {
 
 
 }
-?>
+
